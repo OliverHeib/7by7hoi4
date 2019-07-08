@@ -1,0 +1,49 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "hoi4mainthemeallies.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "good_morning_captain"
+	file = "good_morning_captain.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "ambient_feadback"
+	file = "ambient_feadback.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "new_thing"
+	file = "new_thing.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "spacy_tune"
+	file = "spacy_tune.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "seven_pt1"
+	file = "7_pt1.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "seven_pt2"
+	file = "7_pt2.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "seven_pt3"
+	file = "7_pt3.ogg"
+	volume = 0.65
+}

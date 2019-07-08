@@ -1,0 +1,67 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "HJN"
+		default = yes
+		
+		"HJN"={
+			history = "HJN_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"HJN"={
+			history = "HJN_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { NOT = { has_dlc = "Man the Guns" } }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FCN"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AOK"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		"CVL"={
+			minor = yes
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		
+	}
+}

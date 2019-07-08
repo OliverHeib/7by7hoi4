@@ -1,0 +1,522 @@
+﻿division_template = {
+	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Tank Brigade"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Colonial Garrison"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+units = {
+	#Aldershot Command
+	division= {	# "1st Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "2nd Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	#Scottish Command
+	division= {	# "51st 'Highland' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "52nd 'Lowland' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Northern Command
+	division= {	
+		name = "5th Cavalry Brigade"
+		location = 11297
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "5th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "50th 'Northumbrian' Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 50
+		}
+		location = 9397
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "49th 'West Riding' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}
+		location = 11218
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Eastern Command
+	division= {	# "4th Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11253
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "44th 'Home Counties' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 44
+		}
+		location = 11221
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "54th 'East Anglia' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = 3287
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Western Command	
+	division= {	
+		name = "6th Cavalry Brigade"
+		location = 407
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "42nd 'East Lancashire' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6318
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "53rd 'Welsh' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = 311
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "55th 'West Lancashire' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 6384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	#Southern Command
+	division= {	
+		name = "Royal Tank Regiment"
+		location = 9239
+		division_template = "Tank Brigade"
+		start_experience_factor = 0.3
+	}
+	division= {	# "3rd Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 13070
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	# "43rd 'Wessex' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "48th 'South Midland' Infantry Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 6351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	### 2. Armee (Wehrmacht-Gruppenkommando) ###
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 13
+		}
+		location = 6257
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	# VI. Armeekorps
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		}
+		location = 11264
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 16
+		}
+		location = 11264
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	# IX. Armeekorps
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 9
+		}
+		location = 11388
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 15
+		}
+		location = 241
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	# X. Armeekorps
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 19
+		}
+		location = 6488
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 20
+		}
+		location = 9572
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 22
+		}
+		location = 9572
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	# V. Armeekorps
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 9517
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	# VII. Armeekorps
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		}
+		location = 11544
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 10
+		}
+		location = 11497
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 17
+		}
+		location = 586
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}			
+	division= {	
+		name = "Gebirgs-Brigade" 
+		location = 692
+		division_template = "Cavalry Brigade" 
+		start_experience_factor = 0.3
+	}
+}
+
+
+air_wings = {
+	### RAF Fighter Command ###
+	129 = { 
+		### No. 11 Fighter Command, Middlesex area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "HJN" 
+			amount = 216
+		}
+	}
+	130 = { 
+		### No. 11 Fighter Command, Essex area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "HJN" 
+			amount = 144
+		}
+	}	
+	127 = { 
+		### No. 12 Fighter Command, Nottingham area -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "HJN" 
+			amount = 96
+		}
+	}	
+	131 = { 
+		### No. 13 Fighter Command, Newcastle -- Hawker Demons, Furys, Gloster Gauntlets
+		fighter_equipment_0 = {
+			owner = "HJN" 
+			amount = 72
+		}
+		
+	}
+	
+	### RAF Bomber Command ###
+	125 = { 
+		### No. 1 Bomber Command, East Anglia area -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "HJN" 
+			amount = 64
+		}
+	}
+	125 = { 
+		### No. 2 Bomber Command, East Anglia area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "HJN" 
+			amount = 48
+		}
+	}
+	126 = { 
+		### No. 3 Bomber Command, Suffolk area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "HJN" 
+			amount = 64
+		}
+	}
+	130 = { 
+		### No. 4 Bomber Command, York area -- HP Heyford, Harrows, AW Whitleys
+		tac_bomber_equipment_0 = {
+			owner = "HJN" 
+			amount = 80
+		}
+	}
+	128 = { 
+		### No. 5 Bomber Command, Lincoln area -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "HJN" 
+			amount = 64
+		}
+	}
+
+	### RAF Coastal Command
+	130 = { 
+		### No. 16 Coastal Command -- Vickers Vildebeests
+		nav_bomber_equipment_1 = {
+			owner = "HJN" 
+			amount = 24
+		}
+	}
+
+	
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "HJN"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "HJN"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "HJN" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "HJN" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "HJN" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+			creator = "HJN" 
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}
+	#####################
