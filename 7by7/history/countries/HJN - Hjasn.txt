@@ -76,6 +76,9 @@ add_ideas = {
 set_convoys = 800
 
 # DIPLOMACY
+
+puppet = CVL
+
 if = {
 	limit = {
 		OR = {
@@ -84,14 +87,20 @@ if = {
 		}
 	}
 	set_autonomy = {
-		target = CVL
+		target = HNR
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = HJP
 		autonomous_state = autonomy_colony
 		freedom_level = 0.35
 	}
 	else = {
-		puppet = CVL
+		puppet = HNR
 	}
 }
+
 1939.1.1 = {
 
 	add_political_power = 1198

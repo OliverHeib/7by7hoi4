@@ -21,7 +21,8 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = HJN
+		add_core_of = VTY
+		add_claim_by = VTY
 	}
 
 	provinces={

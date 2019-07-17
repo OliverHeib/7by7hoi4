@@ -21,7 +21,8 @@ state={
 		victory_points = {
 			7953 1 
 		}
-		add_core_of = AOK
+		add_core_of = YAS
+		add_claim_by = YAS
 	}
 
 	provinces={

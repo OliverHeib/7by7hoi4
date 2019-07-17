@@ -1,0 +1,26 @@
+
+state={
+	id=442
+	name="STATE_442"
+	manpower = 4684400
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			12763 3
+		}
+		owner = UAD
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		add_core_of = XSA
+		add_core_of = UAD
+		add_claim_by = XSA
+	}
+
+	provinces={
+		1978 4558 4998 12717 12763 
+	}
+}

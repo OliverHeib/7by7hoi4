@@ -204,9 +204,9 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 20
-	fascism = 50
-	communism = 30
+	democratic = 15
+	fascism = 40
+	communism = 45
 }
 
 create_faction = "Cygnus First"
